@@ -1,0 +1,2 @@
+class Chonker < ApplicationRecord
+end
