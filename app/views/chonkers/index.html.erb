@@ -1,1 +1,11 @@
-<h1> Rate the Chonkers!</h1>
+<h1> <%= @chonkers.inspect %></h1>
+
+<% @chonkerss.each do |chonker| %>
+  <div>
+    <h1><%= chonker.name %></h1><br />
+    <i><%= chonker.image %></i><br />
+    <p><%= chonker.description %></p><br />
+  </div>
+
+  <hr />
+<% end %>
